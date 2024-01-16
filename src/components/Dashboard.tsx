@@ -14,6 +14,7 @@ import type { JSX } from 'react/jsx-runtime';
 import type { ClassAttributes, HTMLAttributes } from 'react';
 
 export default function Dashboard() {
+  console.log('HELLO');
   return (
     <Theme appearance="light">
       <div className="flex h-full bg-gray-100">
